@@ -1,0 +1,84 @@
+body{
+    background-color: #000000;
+    color: aliceblue;
+    font-family: 'Monsterrat',sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 0%;
+}
+.mainHead{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.leftMain{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rightMain{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.det{
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+span{
+    color: aqua;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin: 20px;
+    color: aqua;
+    background-color: #252525;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #141414;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    /* Styles for screens with a maximum width of 767 pixels (typical phone width) */
+    .hide-on-phone {
+      display: none; /* Hide the element with this class on phones */
+    }
+    .mediumtext{
+        font-size:30px;
+    }
+    .text{
+        font-size: large;
+    }
+    .down{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+  }
+
+li{
+    margin: 5px 0;
+}
+.member{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
